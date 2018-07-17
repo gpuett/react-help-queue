@@ -1,7 +1,7 @@
 import * as types from './ActionTypes';
-import { defaultState } from "./DefaultState";
+import firebaseConfig from './firebaseConfig';
 
 export default {
-  defaultState: defaultState,
-  types: types
+  firebaseConfig: firebaseConfig,
+  c: types
 };
